@@ -7,7 +7,6 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { MdMailOutline } from "react-icons/md";
-
 import styled from "styled-components";
 import { mobile } from "../responsive";
 
@@ -88,7 +87,7 @@ const Footer = () => {
   return (
     <Container>
       <Left>
-        <Logo>LAMA.</Logo>
+        <Logo>NutriHub.</Logo>
         <Desc>
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
@@ -114,12 +113,11 @@ const Footer = () => {
         <List>
           <ListItem>Home</ListItem>
           <ListItem>Cart</ListItem>
-          <ListItem>Man Fashion</ListItem>
-          <ListItem>Woman Fashion</ListItem>
-          <ListItem>Accessories</ListItem>
+          <ListItem>Protein</ListItem>
+          <ListItem>Creatine</ListItem>
+          <ListItem>vitamins</ListItem>
           <ListItem>My Account</ListItem>
           <ListItem>Order Tracking</ListItem>
-          <ListItem>Wishlist</ListItem>
           <ListItem>Wishlist</ListItem>
           <ListItem>Terms</ListItem>
         </List>
@@ -134,7 +132,7 @@ const Footer = () => {
           <FaPhoneAlt style={{ marginRight: "10px" }} /> +961 81 834512
         </ContactItem>
         <ContactItem>
-          <MdMailOutline style={{ marginRight: "10px" }} /> contact@lama.dev
+          <MdMailOutline style={{ marginRight: "10px" }} /> contact@nutrihub.dev
         </ContactItem>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>

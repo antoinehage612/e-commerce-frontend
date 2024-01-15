@@ -93,7 +93,7 @@ const ProductColor = styled.div`
   background-color: ${(props) => props.color};
 `;
 
-const ProductSize = styled.span``;
+//const ProductSize = styled.span``;
 
 const PriceDetail = styled.div`
   flex: 1;
@@ -213,9 +213,6 @@ const Cart = () => {
                       <b>ID:</b> {product._id}
                     </ProductId>
                     <ProductColor color={product.color} />
-                    <ProductSize>
-                      <b>Size:</b> {product.size}
-                    </ProductSize>
                   </Details>
                 </ProductDetail>
                 <PriceDetail>

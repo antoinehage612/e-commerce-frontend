@@ -1,23 +1,23 @@
 export const sliderItems = [
   {
     id: 1,
-    img: "https://www.pngall.com/wp-content/uploads/2016/05/Model-PNG-Picture.png",
-    title: "SUMMER SALE",
-    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+    img: "https://www.nutrex.com/wp-content/uploads/2021/07/100whey-5lb-choc.png",
+    title: "Fit Fuel",
+    desc: "Choose your whey: Concentrate, Isolate, or Hydrolysate. Elevate workouts, manage weight, and boost immunity. Your shortcut to strength.",
     bg: "f5fafd",
   },
   {
     id: 2,
-    img: "https://i.ibb.co/DG69bQ4/2.png",
-    title: "AUTUMN COLLECTION",
-    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+    img: "https://content.optimumnutrition.com/i/on/on-creatine-micronized_Image_01?$TTL_PRODUCT_IMAGES$&locale=en-us,en-gb,*",
+    title: "Strength in a Scoop",
+    desc: "Empower your workouts with creatine. Unleash the power of strength and endurance. Your essential ally for fitness gains.",
     bg: "fcf1ed",
   },
   {
     id: 3,
-    img: "https://i.ibb.co/cXFnLLV/3.png",
-    title: "LOUNGEWEAR LOVE",
-    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+    img: "https://www.aicr.org/wp-content/uploads/2020/01/shutterstock_89278657_sil2-640x549.png",
+    title: "Elevate Your Wellness",
+    desc: "Explore a range of supplements to elevate your vitality. Unleash the potential for a healthier, fitter lifestyle.",
     bg: "fbf0f4",
   },
 ];
@@ -25,20 +25,21 @@ export const sliderItems = [
 export const categories = [
   {
     id: 1,
-    img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=",
-    title: "SHIRT STYLE!",
-    cat: "women",
+    img: "https://emporiointegrale.com.br/wp-content/uploads/2022/05/whey-1515784989657_v2_3x4.jpg",
+    title: "Whey Protein",
+    cat: "protein",
   },
   {
     id: 2,
-    img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    title: "LOUNGEWEAR LOVE",
+    img: "https://www.mensjournal.com/.image/t_share/MTk2MTM2MTU2MjQwNzQ5NzEz/1280-protein-powder-supplement.jpg",
+    title: "creatine",
+    cat: "creatine",
   },
   {
     id: 3,
-    img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    title: "LIGHT JACKETS",
-    cat: "jeans",
+    img: "https://www.adm.com/globalassets/products--services/human-nutrition/categories/dietary-supplements/supplements---adobestock_100401302.jpeg",
+    title: "Other Supps",
+    cat: "supplements",
   },
 ];
 

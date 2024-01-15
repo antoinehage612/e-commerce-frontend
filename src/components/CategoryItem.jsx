@@ -26,10 +26,12 @@ const Info = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2);
 `;
 
 const Title = styled.h1`
-  color: white;
+  color: #ffffff;
+
   margin-bottom: 20px;
 `;
 
