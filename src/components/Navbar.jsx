@@ -1,4 +1,4 @@
-import { FaSearch, FaShoppingCart } from "react-icons/fa";
+import { FaShoppingCart } from "react-icons/fa";
 import React from "react";
 import styled from "styled-components";
 import { mobile } from "../responsive";
@@ -24,22 +24,11 @@ const Left = styled.div`
   align-items: center;
 `;
 
-// const Language = styled.span`
-//   font-size: 14px;
-//   cursor: pointer;
-//   ${mobile({ display: "none" })}
-// `;
-
 const SearchContainer = styled.div`
   display: flex;
   align-items: center;
   margin-left: 25px;
   padding: 5px;
-`;
-
-const Input = styled.input`
-  border: none;
-  ${mobile({ width: "50px" })}
 `;
 
 const Center = styled.div`
