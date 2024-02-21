@@ -31,7 +31,6 @@ const Left = styled.div`
 // `;
 
 const SearchContainer = styled.div`
-  border: 0.5px solid lightgray;
   display: flex;
   align-items: center;
   margin-left: 25px;
@@ -90,10 +89,7 @@ const Navbar = () => {
     <Container>
       <Wrapper>
         <Left>
-          <SearchContainer>
-            <Input placeholder="Search" />
-            <FaSearch style={{ color: "gray", fontSize: 16 }} />
-          </SearchContainer>
+          <SearchContainer></SearchContainer>
         </Left>
         <Center>
           <Logo>NutriHub.</Logo>

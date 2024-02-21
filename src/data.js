@@ -1,7 +1,7 @@
 export const sliderItems = [
   {
     id: 1,
-    img: "https://www.nutrex.com/wp-content/uploads/2021/07/100whey-5lb-choc.png",
+    img: "https://www.muscletech.com/cdn/shop/files/muscletech-nitrotech-chocolate-4lb_1200x.png?v=1695393555",
     title: "Fit Fuel",
     desc: "Choose your whey: Concentrate, Isolate, or Hydrolysate. Elevate workouts, manage weight, and boost immunity. Your shortcut to strength.",
     bg: "f5fafd",
