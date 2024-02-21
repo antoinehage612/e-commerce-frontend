@@ -95,9 +95,6 @@ const Navbar = () => {
           </StyledLink>
         </Center>
         <Right>
-          <StyledLink to="/register">
-            <MenuItem>REGISTER</MenuItem>
-          </StyledLink>
           <StyledLink to="/login">
             <MenuItem>SIGN IN</MenuItem>
           </StyledLink>
