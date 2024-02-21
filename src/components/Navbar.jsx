@@ -38,6 +38,7 @@ const Center = styled.div`
 
 const Logo = styled.h1`
   font-weight: bold;
+  cursor: pointer; /* Adding cursor pointer for indicating it's clickable */
   ${mobile({ fontSize: "24px" })}
 `;
 
@@ -71,6 +72,14 @@ const CartBadge = styled.span`
   padding: 6px;
   font-size: 10px;
 `;
+
+const StyledLink = styled(Link)`
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use parent color */
+  &:hover {
+    color: inherit; /* Use parent color on hover */
+  }
+`;
 const Navbar = () => {
   const quantity = useSelector((state) => state.cart.quantity);
 
@@ -81,17 +90,23 @@ const Navbar = () => {
           <SearchContainer></SearchContainer>
         </Left>
         <Center>
-          <Logo>NutriHub.</Logo>
+          <StyledLink to="/">
+            <Logo>NutriHub.</Logo>
+          </StyledLink>
         </Center>
         <Right>
-          <MenuItem>REGISTER</MenuItem>
-          <MenuItem>SIGN IN</MenuItem>
-          <Link to="/cart">
+          <StyledLink to="/register">
+            <MenuItem>REGISTER</MenuItem>
+          </StyledLink>
+          <StyledLink to="/login">
+            <MenuItem>SIGN IN</MenuItem>
+          </StyledLink>
+          <StyledLink to="/cart">
             <CartIcon>
               <FaShoppingCart style={{ fontSize: 22 }} />
               {quantity > 0 && <CartBadge>{quantity}</CartBadge>}
             </CartIcon>
-          </Link>
+          </StyledLink>
         </Right>
       </Wrapper>
     </Container>
